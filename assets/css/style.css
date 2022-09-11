@@ -19,7 +19,9 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.webp") top right no-repeat;
+  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background-color: #0005;
+  background-blend-mode: darken;
   background-size: cover;
   left: 0;
   right: 0;
